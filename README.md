@@ -26,6 +26,12 @@ execute:
 pip install -r requirements.txt
 ```
 
+The NLTK Punkt Tokenizer Models are also required:
+
+```bash
+python -m nltk.downloader Punkt
+```
+
 ### Installation
 
 It is recommended to run the MoodMap daemon with Supervisor. To do this setup
